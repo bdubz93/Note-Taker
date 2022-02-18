@@ -25,7 +25,18 @@ app.post(`/api/notes`, (req, res) => {
     res.json(newNote.id);
 })
 
-
+app.delete(`/api/notes/:id`, (req, res) => {
+  let data = JSON.stringify(req.params.id);
+  for (let i = 0; i < notes.length; i++) {
+        console.log(notes[i].id);
+        if (notes[i].id == req.params.id) {
+          console.log(`Deleted`);
+          notes.splice(i, 1); 
+        }
+  }
+  saveDB(notes);
+  res.end();
+})
 
 function saveDB (notes) {
    let data = JSON.stringify(notes, null, 2);
