@@ -1,22 +1,7 @@
 [
   {
-    "title": "new notes",
-    "text": "new",
+    "title": "Example Note",
+    "text": "This is an example note, to add a new note click the + sign. To save a note press the save button on the right side. To view old notes click on their notes title.",
     "id": "4403b2a8-acda-4e7c-a91c-80467c79bf3d"
-  },
-  {
-    "title": "d",
-    "text": "d",
-    "id": "27eee872-b6f1-4523-8577-8de7089d06b1"
-  },
-  {
-    "title": "bewdas",
-    "text": "dsadasd",
-    "id": "d0831f26-5664-421d-a446-89907ac51f58"
-  },
-  {
-    "title": "new",
-    "text": "notes",
-    "id": "e605a384-623c-40dd-b6d3-b3e2b0389188"
   }
 ]
